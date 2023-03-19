@@ -1,0 +1,59 @@
+body{
+  background-image: url(../image/thumbnail-11.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-form{
+  width: 450px;
+  margin: 0 auto;
+  background-color:inherit;
+  margin-top: 50px;
+}
+.form-type{
+  margin: 10px;
+
+}
+.btn{
+  text-align: center;
+}
+button{
+  background-color:grey;
+  border: solid 2px black;
+  border-radius: 10px;
+  transition: 1s;
+  box-shadow: 2px 2px 2px;
+}
+.btn button:hover{
+  background-color: green;
+  
+}
+fieldset{
+  border: solid 3px blue;
+  border-radius: 30px;
+  width: 400px;
+  box-shadow: 5px 5px 5px red,
+              5px -5px 5px red,
+              -5px 5px 5px red;
+
+}
+legend{
+  color: aquamarine;
+  font-size:30px;
+}
+input{
+  width: 90%;
+  /* padding: 10px; */
+  /* border: solid 2px gray; */
+  outline:none;
+  /* border-radius: 10px; */
+  border: none;
+  border-bottom: solid 2px green;
+  background-color: inherit;
+}
+input:hover{
+  /* border: solid 2px green; */
+}
+input:focus{
+  /* background-color: brown; */
+}
+
